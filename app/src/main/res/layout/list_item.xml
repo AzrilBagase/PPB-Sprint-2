@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    app:layout_goneMarginEnd="8dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginBottom="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:padding="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cardviewhome">
+
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="167dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/soundsystem" />
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="190dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="180dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/judul_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:text="Sound System PA 10k"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/ungu_tua"
+                android:fontFamily="@font/jockeyone"/>
+            <TextView
+                android:id="@+id/kategori_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:text="Sound System"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/ungu_tua"
+                android:fontFamily="@font/jockeyone"/>
+            <TextView
+                android:id="@+id/merk_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Custom"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/ungu_tua"
+                android:fontFamily="@font/jockeyone"/>
+            <TextView
+                android:id="@+id/harga_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="Rp. 5.000.000,00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/ungu_tua"
+                android:fontFamily="@font/jockeyone"/>
+
+
+            <Button
+                android:id="@+id/btnsewa"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sewa"
+                android:fontFamily="@font/jockeyone"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/ungu_muda"/>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
